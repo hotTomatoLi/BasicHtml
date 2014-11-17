@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/pageintation.css" />
+    <script type="text/javascript" src="js/pageination.js" ></script>
+    <script type="text/javascript">
+        function init(){
+            var div = document.getElementById('pageDiv');
+            try{
+                var config = {
+                    curPageNo:2,
+                    totalPageNo:100,
+                    totalRecords:1000
+                };
+                var result = pageination.generateHtml(config);
+            }catch( e){
+                alert(e);
+            }
+
+            div.innerHTML = result;
+        }
+    </script>
+</head>
+<body onload="init()">
+<div id="pageDiv" >
+
+</div>
+
+</body>
+</html>

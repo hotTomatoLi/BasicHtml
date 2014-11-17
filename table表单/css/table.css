@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "微软雅黑";
+}
+table thead th {
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+table tbody tr td{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}

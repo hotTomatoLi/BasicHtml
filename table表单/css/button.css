@@ -1,0 +1,18 @@
+.btn-001 {
+    color: #ffffff;
+    background-color: #34495c;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.btn-001:hover{
+    background-color:transparent;
+    color: #000000;
+    border:solid 1px;
+}
+

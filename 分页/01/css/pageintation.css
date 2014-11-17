@@ -1,0 +1,35 @@
+#pageDiv{
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+    margin-top:20px;
+    color: #999999;
+    font-size: 14px ;
+}
+
+#pageDiv a{
+    padding: 4px 8px;
+    margin: 10px 3px;
+    font-size: 12px;
+    border: 1px solid #DFDFDF;
+    background-color: #FFFFFF;
+    color: #9d9d9d;
+    text-decoration: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+#pageDiv .aselect{
+    padding: 4px 8px;
+    margin: 10px 3px;
+    font-size: 12px;
+    border: 1px solid #DFDFDF;
+    background-color: #FF6600;
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+#pageDiv a:hover{
+    background-color:#FFEEE5;
+    border:1px solid #FF6600;
+}
