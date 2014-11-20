@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script type="text/javascript" src="js/JsTree.js" ></script>
+    <script type="text/javascript">
+        function pageLoad(){
+            var data = [{name:'书籍'},{name:'办公用品',data:[{name:'插销板'},{name:'鼠标',data:[{name:'无线鼠标'},
+                {name:'有线鼠标'}]}]},
+                {name:'家电'},{name:'食品'}];
+            treeComponent.init(data);
+            document.getElementById('treeDiv').innerHTML = treeComponent.getHtml();
+        }
+    </script>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+            margin-left: 0px;
+            padding-left: 15px;
+        }
+        ul>li{
+            list-style-type: none;
+            padding-top: 5px;
+        }
+        li>span{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        img{
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+
+        }
+
+        .nodeUl{
+            display: none;
+        }
+    </style>
+</head>
+<body onload="pageLoad()">
+
+<div id="treeDiv">
+
+
+</div>
+</body>
+</html>
